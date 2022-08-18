@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #8e73c2 , #5375b5);
+    font-family: 'Arimo', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-box{
+    width: 340px;
+    height: 720px;
+    background: rgba(255,255,255, 0.2);
+    margin-right: 40px;
+    padding: 35px;
+    text-align: center;
+    border-radius: 5px;
+   position: relative;
+   
+}
+.single-box3{
+    width: 340px;
+    height: 620px;
+    background: rgba(255,255,255, 0.2);
+    margin-right: 40px;
+    padding: 35px;
+    text-align: center;
+    border-radius: 5px;
+   position: relative;
+   
+}
+.single-box2{
+    width: 340px;
+    height: 810px;
+    background: rgba(255,255,255, 0.2);
+    margin-right: 40px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+   position: relative;
+   
+}
+.single-box:last-child{
+    margin-right: 0;
+}
+.single-box p{
+    font-size: 23px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.single-box3 p{
+    font-size: 23px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.single-box2 p{
+    font-size: 23px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.single-box2 .text {
+    padding: 20px;
+}
+.single-box .list {
+    font-size: 23px;
+    line-height: 2.5;
+}
+.single-box3 .list {
+    font-size: 23px;
+    line-height: 2.5;
+}
+.single-box2 .list {
+    font-size: 23px;
+    line-height: 2.5;
+} 
+.single-box .price p {
+    font-weight: 500;
+    font-size: 65px;
+    margin-top: 15px;
+}
+.single-box3 .price p {
+    font-weight: 500;
+    font-size: 65px;
+    margin-top: 0px;
+}
+.single-box2 .price p {
+    font-weight: 500;
+    font-size: 65px;
+    margin-top: 0px;
+}
+.single-box h1{
+    margin-top: 10%;
+    margin-bottom: 55px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.single-box3 h1{
+    margin-top: 10%;
+    margin-bottom: 55px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+.single-box2 h1{
+    margin-top: 10%;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+.single-box a{
+    background: #f9f94b;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:18px 76px ;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 23px;
+    color: black;
+}
+.single-box3 a{
+    background: #f9f94b;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:17px 124px ;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 23px;
+    color: black;
+}
+.single-box2 a{
+    background: #f9f94b;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:18px 57px ;
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 23px;
+    color: black;
+}
+@media (max-width:991px) {
+    .box{
+        width: 100%;
+    }
+}
+@media (max-width:707px) {
+    .box{
+        width: 100%;
+        flex-direction: column;
+        margin: 0%;
+
+    }
+    .single-box{
+        margin-left: 6%;
+        width: 100%;
+        margin-bottom: 110px;
+        
+    }
+    .single-box2{
+        margin-left: 6%;
+        width: 100%;
+        margin-bottom: 110px;
+    }
+    .single-box3{
+        margin-left: 6%;
+        width: 100%;
+        margin-bottom: 110px;
+    }
+}
+li{
+    float:left;
+    width: 100%;
+    border-bottom: 1px solid #8e73c2;
+  }
+
+  li:nth-child(5n+1):nth-last-child(-n+5),
+  li:nth-child(5n+1):nth-last-child(-n+5),
+  li:nth-child(n):nth-last-child(-n+5):not(.skip-class) ~ li {
+    border:none;
+}
